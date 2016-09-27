@@ -6,6 +6,62 @@
  * Made By MaterializeCSS.com
  */
 
+/*popout*/
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ .pop_background {
+   position: fixed;
+   width: 100%;
+   height: 900px;
+   top: 0;
+   left: 0;
+   background:#000;
+   opacity: .8;
+   z-index: 1000;
+   cursor: pointer;
+   display: none;
+ }
+
+ .pop_box {
+   position: absolute;
+   background: rgba(255,255,255,0.7);
+   width: 40%;
+   height: 60%;
+   margin: 210px 0 0 22%;
+   padding: 20px;
+   z-index: 1200;
+   display: none;
+   border-radius: 10px;
+ }
+
+ .boxtitle {
+   background: black;
+   color: white;
+   padding: 10px;
+   width: 60%;
+   text-align: center;
+ }
+
+ .boximage {
+   width: 60%;
+   height: 40%;
+ }
+
+ .close {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   border: 1px solid #999;
+   text-align: center;
+   line-height: 30px;
+   font-size: 20px;
+   float: right;
+ }
+/*popout*/
+
 html, body {
   height: 100%;
   background: black;
@@ -152,7 +208,7 @@ nav ul a {
 }
 
 .github {
-  height: 40px;
+  height: 35px;
   width: 100px;
 }
 
@@ -373,32 +429,7 @@ img {
 .view-first:hover a.info {
     transition-delay: 0.2s;
 }
-/*nav ul a,
-nav .brand-logo {
-  color: #444;
-  font-family: 'Handlee', cursive;
 
-}
-
-
-p {
-  line-height: 2rem;
-}
-
-.button-collapse {
-  color: #26a69a;
-}
-
-.parallax-container {
-  min-height: 600px;
-  line-height: 0;
-  height: auto;
-  color: white;
-
-}
-  .parallax-container .section {
-    width: 100%;
-  }*/
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {

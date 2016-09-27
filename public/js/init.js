@@ -64,5 +64,24 @@
 
     smoothScroll();
 
+//pop out portfolio page
+  $("#open1").click(function(){
+    $(".pop_background").fadeIn();
+    $("#pop_box").fadeIn();
+    return false;
+  })
+
+  $(".close").click(function(){
+    $(".pop_background").fadeOut();
+    $(".pop_box").fadeOut();
+    return false;
+  })
+
+  $(".pop_background").click(function(){
+    $(".pop_background").fadeOut();
+    $(".pop_box").fadeOut();
+    return false;
+  })
+
   }); // end of document ready
 })(jQuery); // end of jQuery name space
