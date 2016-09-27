@@ -29,7 +29,7 @@
    position: absolute;
    background: rgba(255,255,255,0.7);
    width: 40%;
-   height: 60%;
+   height: 80%;
    margin: 210px 0 0 22%;
    padding: 20px;
    z-index: 1200;
@@ -167,7 +167,7 @@ nav ul a {
   margin: 0 auto;
   align-content: center;
   text-align:center;
-  padding-top: 60px;
+  padding-top: 79px;
 }
 
 #profileTitle {
