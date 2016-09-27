@@ -1,0 +1,444 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+html, body {
+  height: 100%;
+  background: black;
+}
+
+* {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 20px;
+}
+
+
+
+nav {
+  /*height: 50%;*/
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0,0,0, 0.3);
+  z-index: 99;
+
+}
+
+nav ul a {
+  font-size: 1.4rem;
+}
+
+
+#logo-container {
+  color: white;
+  font-size: 3rem;
+}
+
+.sect {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.subSection {
+  height: 100%;
+  background-color: white;
+}
+
+.intro {
+  height: 100%;
+  background-image: url("https://static.pexels.com/photos/24529/pexels-photo-large.jpg");
+  /*background: #677C8A;*/
+  color: white;
+  text-align: center;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.section {
+  padding-top: 50px;
+}
+
+.sectOne {
+  background-image: url("https://static.pexels.com/photos/174/coffee-apple-iphone-laptop-large.jpg");
+}
+
+.sectTwo {
+  /*background: black;*/
+  background-image: url("https://static.pexels.com/photos/36487/above-adventure-aerial-air-large.jpg");
+}
+
+.sectThree {
+  background-image: url("https://static.pexels.com/photos/28184/pexels-photo-28184-large.jpg");
+}
+
+
+.profilepic {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 90em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.info {
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  align-content: center;
+  text-align:center;
+  padding-top: 100px;
+}
+
+#profileTitle {
+  font-size: 60px;
+  color: white;
+}
+
+#wdi {
+  color: white;
+  font-size: 20px;
+}
+/*#FFF5C2*/
+.mashape {
+    width: 30%;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 200px;
+    text-align:center;
+}
+
+#contactSection, #aboutSection, #portfolioSection, #headingSection {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+  padding-top: 10px;
+}
+
+#portfolioSection {
+  margin-top: 50px;
+}
+
+/*.mashape2 {
+  width: 35%;
+  align-content: center;
+  margin: 0 auto;
+  padding-top: 60px;
+  text-align:center;
+}*/
+
+.quote{
+  color: white;
+  background-color: rgba(0,0,0,0);
+  font-size: 20px;
+}
+
+.buttonDiv {
+  width: 35%;
+  align-content: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align:center;
+}
+
+.ghost {
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  padding: 8px;
+  color: white;
+  border: 3px solid white;
+  text-align: center;
+  outline: none;
+  /*text-decoration: none;*/
+}
+
+.ghost:hover,
+.ghost:active {
+  background-color: #fff;
+  color: #000;
+}
+
+#contactform {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.5);
+  padding: 30px;
+}
+
+.break {
+  height:18%;
+}
+
+input {
+  color: white;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+textarea {
+  height: 150px;
+  color: white;
+}
+
+.title {
+  color: white;
+  margin: 0 auto;
+}
+
+button {
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.space {
+    padding-right: 20px;
+}
+
+.fa-reddit {
+  float: right;
+  color: #2FC5CC;
+}
+
+
+.subTitle {
+  background: black;
+  color: white;
+  width: 30%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.subTwo {
+  max-height: 370%;
+}
+
+
+.container {
+  width:100%;
+  height: 100%;
+}
+
+img {
+  height: 200px;
+  width: 280px;
+}
+
+
+
+.view {
+    width: 280px;
+    height: 230px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #fff no-repeat center center
+}
+.view .mask, .view .content {
+    width: 280px;
+    height: 230px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+
+.mask{
+  text-align: center;
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: white;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000;
+}
+
+.view-first img {
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(115,146,184, 0.7);
+    transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p {
+    transform: translateY(100px);
+    opacity: 0;
+	transition: all 0.2s linear;
+}
+.view-first a.info{
+    opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.view-first:hover img {
+	transform: scale(1.1);
+}
+.view-first:hover .mask {
+	opacity: 1;
+}
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
+/*nav ul a,
+nav .brand-logo {
+  color: #444;
+  font-family: 'Handlee', cursive;
+
+}
+
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 600px;
+  line-height: 0;
+  height: auto;
+  color: white;
+
+}
+  .parallax-container .section {
+    width: 100%;
+  }*/
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  #contactform {
+    min-width: 90%;
+  }
+
+  /*.card {
+    max-width:100%;
+    width:100%;
+  }*/
+  .subTitle {
+    min-width: 75%;
+  }
+  .subTwo {
+    min-height: 33;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  #index-banner .section {
+    top: 0;
+  }
+  #contactform {
+    min-width: 100%;
+  }
+
+  /*.card {
+    max-width:100%;
+    width:100%;
+    display: inline-block;
+  }*/
+  .subTitle {
+    min-width: 75%;
+  }
+  .subTwo {
+    min-height: 330%;
+  }
+}
+
+@media only screen and (max-width : 375px) {
+  .subTwo {
+    min-height: 345%;
+  }
+}
+/*.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}*/
