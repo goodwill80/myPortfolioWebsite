@@ -149,7 +149,17 @@ nav ul a {
   height: 50px;
   width: 50px;
   margin: 8px;
+}
 
+.github {
+  height: 40px;
+  width: 100px;
+}
+
+#github {
+  color: white;
+  text-align: center;
+  width: 100%;
 }
 /*.mashape2 {
   width: 35%;
