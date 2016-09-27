@@ -71,6 +71,48 @@
     return false;
   })
 
+  $("#open2").click(function(){
+    $(".pop_background").fadeIn();
+    $("#pop_box2").fadeIn();
+    return false;
+  })
+
+  $("#open3").click(function(){
+    $(".pop_background").fadeIn();
+    $("#pop_box3").fadeIn();
+    return false;
+  })
+
+  $("#open4").click(function(){
+    $(".pop_background").fadeIn();
+    $("#pop_box4").fadeIn();
+    return false;
+  })
+
+  $("#open5").click(function(){
+    $(".pop_background").fadeIn();
+    $("#pop_box5").fadeIn();
+    return false;
+  })
+
+  $("#open6").click(function(){
+    $(".pop_background").fadeIn();
+    $("#pop_box6").fadeIn();
+    return false;
+  })
+
+  $("#open7").click(function(){
+    $(".pop_background").fadeIn();
+    $("#pop_box7").fadeIn();
+    return false;
+  })
+
+  $("#open8").click(function(){
+    $(".pop_background").fadeIn();
+    $("#pop_box8").fadeIn();
+    return false;
+  })
+
   $(".close").click(function(){
     $(".pop_background").fadeOut();
     $(".pop_box").fadeOut();
