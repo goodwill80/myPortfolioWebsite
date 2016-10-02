@@ -266,6 +266,18 @@ nav ul a {
   color: #000;
 }
 
+#aboutbtn {
+  width: 130px;
+  height: 40px;
+  padding: 8px;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  outline: none;
+  background: rgba(0,0,0,0.5);
+}
+
+
 #contactform {
   width: 40%;
   margin: 0 auto;
@@ -325,6 +337,7 @@ button {
 
 .learningjourney2 {
   font-style: italic;
+  color: #FFF9BD;
 }
 
 
