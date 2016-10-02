@@ -123,7 +123,7 @@ nav ul a {
 }
 
 .section {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .sectOne {
@@ -162,7 +162,7 @@ nav ul a {
   width: 180px;
   height: 180px;
   margin: 0 auto;
-  padding-top: 30px;
+  /*padding-top: px;*/
 }
 
 .info {
