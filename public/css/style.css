@@ -28,9 +28,9 @@
  .pop_box {
    position: absolute;
    background: rgba(255,255,255,0.7);
-   width: 40%;
+   width: 80%;
    height: 80%;
-   margin: 210px 0 0 22%;
+   margin: 80px 0 0 2%;
    padding: 20px;
    z-index: 1200;
    display: none;
@@ -41,12 +41,12 @@
    background: black;
    color: white;
    padding: 10px;
-   width: 60%;
+   width: 40%;
    text-align: center;
  }
 
  .boximage {
-   width: 60%;
+   width: 40%;
    height: 40%;
  }
 
@@ -110,12 +110,12 @@ nav ul a {
 }
 
 .intro {
-  height: 100%;
+  height: auto;
+  width: auto;
   background-image: url("https://static.pexels.com/photos/24529/pexels-photo-large.jpg");
   /*background: #677C8A;*/
   color: white;
   text-align: center;
-  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -133,10 +133,14 @@ nav ul a {
 .sectTwo {
   /*background: black;*/
   background-image: url("https://static.pexels.com/photos/36487/above-adventure-aerial-air-large.jpg");
+  height: auto;
+  /*width: auto;*/
 }
 
 .sectThree {
   background-image: url("https://static.pexels.com/photos/28184/pexels-photo-28184-large.jpg");
+  height: auto;
+  width: auto;
 }
 
 
@@ -190,15 +194,20 @@ nav ul a {
 
 #contactSection, #aboutSection, #portfolioSection, #headingSection {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
-  color: white;
+  color: #FFFDD0;
   letter-spacing: 5px;
-  padding-top: 5px;
+  padding-top: 60px;
 }
 
 #portfolioSection {
   margin-top: 50px;
+}
+
+.profileimg {
+  height: 50px;
+  width: 100px;
 }
 
 .programing  {
@@ -297,6 +306,25 @@ button {
 .fa-reddit {
   float: right;
   color: #2FC5CC;
+}
+
+.fa {
+  color: #00BDFD;
+}
+
+.center {
+  /*text-decoration: underline;*/
+  font-size: 17px;
+  color: white;
+}
+
+.learningjourney1 {
+  font-style: italic;
+  color: #FFF9BD;
+}
+
+.learningjourney2 {
+  font-style: italic;
 }
 
 
@@ -443,15 +471,11 @@ img {
     min-width: 90%;
   }
 
-  /*.card {
-    max-width:100%;
-    width:100%;
-  }*/
   .subTitle {
     min-width: 75%;
   }
   .subTwo {
-    min-height: 33;
+    min-height: 33%;
   }
 }
 
@@ -463,11 +487,6 @@ img {
     min-width: 100%;
   }
 
-  /*.card {
-    max-width:100%;
-    width:100%;
-    display: inline-block;
-  }*/
   .subTitle {
     min-width: 75%;
   }
@@ -480,14 +499,12 @@ img {
   .subTwo {
     min-height: 345%;
   }
-}
-/*.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
 
-footer.page-footer {
-  margin: 0;
-}*/
+  /*.intro {
+    min-height: 400%;
+  }
+
+  .sectTwo {
+    min-height: 400%;
+  }*/
+}
