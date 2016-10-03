@@ -52,7 +52,7 @@
 
 //smooth scrolling
     function smoothScroll() {
-      $("li a").click(function(e){
+      $(".scroll").click(function(e){
 
         e.preventDefault();
         var sectionId = e.currentTarget.id + "Section";
@@ -63,6 +63,7 @@
     }
 
     smoothScroll();
+
 
 //pop out portfolio page
   $("#open1").click(function(){
@@ -120,6 +121,12 @@
   })
 
   $(".pop_background").click(function(){
+    $(".pop_background").fadeOut();
+    $(".pop_box").fadeOut();
+    return false;
+  })
+
+  $(".aboutbtn2").click(function(){
     $(".pop_background").fadeOut();
     $(".pop_box").fadeOut();
     return false;

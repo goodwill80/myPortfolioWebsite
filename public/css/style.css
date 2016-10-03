@@ -282,6 +282,17 @@ nav ul a {
   background: rgba(0,0,0,0.5);
 }
 
+.aboutbtn2 {
+  width: 130px;
+  height: 40px;
+  padding: 8px;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  outline: none;
+  background: rgba(0,0,0,0.5);
+}
+
 
 #contactform {
   width: 40%;
