@@ -145,6 +145,7 @@ nav ul a {
 .sectThree {
   background-image: url("https://static.pexels.com/photos/28184/pexels-photo-28184-large.jpg");
   height: auto;
+  min-height: 100%;
   width: auto;
 }
 
@@ -316,9 +317,13 @@ box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 
 #contactform {
   width: 40%;
-  margin: -15px auto;
+  margin: -20px auto;
   background: rgba(0,0,0,0.5);
   padding: 30px;
+}
+
+#contactme {
+  margin-top: -10px;
 }
 
 .formemail {
