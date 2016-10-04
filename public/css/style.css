@@ -316,10 +316,19 @@ box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 
 #contactform {
   width: 40%;
-  margin: 0 auto;
+  margin: -15px auto;
   background: rgba(0,0,0,0.5);
   padding: 30px;
 }
+
+.formemail {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(1,1,1,0.5);
+  padding: 30px;
+  color: white;
+}
+
 
 .break {
   height:18%;
@@ -547,6 +556,11 @@ img {
 @media only screen and (max-width : 375px) {
   .subTwo {
     min-height: 345%;
+  }
+
+  #mypic {
+    min-height: 300%;
+    min-width: 300%;
   }
 
   /*.intro {
