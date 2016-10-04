@@ -139,6 +139,7 @@ nav ul a {
   /*background: black;*/
   background-image: url("https://static.pexels.com/photos/36487/above-adventure-aerial-air-large.jpg");
   height: auto;
+  min-height: 100%;
   /*width: auto;*/
 }
 
@@ -191,7 +192,7 @@ nav ul a {
 }
 /*#FFF5C2*/
 .mashape {
-    width: 30%;
+    width: 50%;
     align-content: center;
     margin: 0 auto;
     padding-top: 50px;
