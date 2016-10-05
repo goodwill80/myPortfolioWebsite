@@ -133,6 +133,9 @@ nav ul a {
 
 .sectOne {
   background-image: url("https://static.pexels.com/photos/174/coffee-apple-iphone-laptop-large.jpg");
+  height: auto;
+  min-height: 100%;
+  width: auto;
 }
 
 .sectTwo {
@@ -140,7 +143,7 @@ nav ul a {
   background-image: url("https://static.pexels.com/photos/36487/above-adventure-aerial-air-large.jpg");
   height: auto;
   min-height: 100%;
-  /*width: auto;*/
+  width: auto;
 }
 
 .sectThree {
