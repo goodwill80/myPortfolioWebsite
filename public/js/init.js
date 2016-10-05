@@ -1,8 +1,11 @@
 (function($) {
   $(function() {
 
+
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
+
+    
 
     function auto_load() {
       $.ajax({
